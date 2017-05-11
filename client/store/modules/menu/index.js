@@ -4,6 +4,7 @@ import charts from './charts'
 import uifeatures from './uifeatures'
 import components from './components'
 import tables from './tables'
+import ybfinanz from './ybfinanz'
 
 // show: meta.label -> name
 // name: component name
@@ -11,6 +12,7 @@ import tables from './tables'
 
 const state = {
   items: [
+    ybfinanz,
     {
       name: 'Dashboard',
       path: '/dashboard',
