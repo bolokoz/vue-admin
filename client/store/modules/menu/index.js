@@ -5,6 +5,7 @@ import uifeatures from './uifeatures'
 import components from './components'
 import tables from './tables'
 import ybfinanz from './ybfinanz'
+import shop from './shop'
 
 // show: meta.label -> name
 // name: component name
@@ -13,6 +14,7 @@ import ybfinanz from './ybfinanz'
 const state = {
   items: [
     ybfinanz,
+    shop,
     {
       name: 'Dashboard',
       path: '/dashboard',
