@@ -9,20 +9,28 @@ export default {
 
   children: [
     {
-      name: 'Reddit',
-      path: '/reddit',
+      name: 'Main',
+      path: '/shoppingmin',
       meta: {
-        link: 'ybfinanz/RedditTutorial.vue'
+        link: 'shop/Shoppingmin.vue'
       },
-      component: lazyLoading('ybfinanz/RedditTutorial')
+      component: lazyLoading('shop/Shoppingmin')
     },
     {
-      name: 'Stock Analysis',
-      path: '/stock',
+      name: 'Categoria 1',
+      path: '/categoria1',
       meta: {
-        link: 'ybfinanz/StockAnalysis.vue'
+        link: 'shop/Categoria1.vue'
       },
-      component: lazyLoading('ybfinanz/StockAnalysis')
+      component: lazyLoading('shop/Categoria1')
+    },
+    {
+      name: 'Admin painel',
+      path: '/admin',
+      meta: {
+        link: 'shop/Admin.vue'
+      },
+      component: lazyLoading('shop/Admin')
     }
   ]
 }

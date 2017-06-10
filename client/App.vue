@@ -77,7 +77,7 @@ html {
   pointer-events: none;
 
   #nprogress {
-    $color: #48e79a;
+    $color: #0e55e7;
 
     .bar {
       background: $color;
